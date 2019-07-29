@@ -39,7 +39,7 @@ class NPCEntity extends Human
         $damager = $source->getDamager();
         if(!$damager instanceof Player)return;
         $formData = [];
-        $formData['title'] = "SurvivalGames Menu";
+        $formData['title'] = "SkyWars Menu";
         $formData['type'] = "form";
         $arena = SkyWars::$instance->findBestArena();
         $formData['buttons'][] = ['text' => "Join current arena\n" . TextFormat::RESET . $arena->getName() . " " . TextFormat::YELLOW . count($arena->players) . "/" . $arena->slots . " " . TextFormat::GRAY . "Type: " . TextFormat::BOLD . TextFormat::GREEN . ucfirst($arena->getType())];
