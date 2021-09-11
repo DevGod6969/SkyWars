@@ -557,7 +557,7 @@ class Arena
                 if(count($this->players) >= $this->slots - 2 && $this->startTime < 10){
                     $this->startTime = 10;
                 }
-                if($this->startTime == 10){
+                if($this->startTime == 0){
                      $this->start();
                 }
             }
