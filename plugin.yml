@@ -1,7 +1,7 @@
 name: SkyWars
-author: boi
-api: 3.5.9
-version: 1.0beta
+author: Boi
+api: 3.22.5
+version: 1.0.0
 main: SkyWars\SkyWars
 
 commands:
